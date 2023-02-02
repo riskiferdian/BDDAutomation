@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 9923553875,
+  "duration": 10114221291,
   "status": "passed"
 });
 formatter.scenario({
@@ -44,11 +44,16 @@ formatter.step({
   "name": "User sort product list by \"Name (Z to A)\"",
   "keyword": "And "
 });
+formatter.step({
+  "line": 10,
+  "name": "User choice 2 product from the list",
+  "keyword": "And "
+});
 formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 531739333,
+  "duration": 426091541,
   "status": "passed"
 });
 formatter.match({
@@ -65,14 +70,14 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 3919436000,
+  "duration": 4001156375,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.verifyLandingPage()"
 });
 formatter.result({
-  "duration": 778971458,
+  "duration": 261877417,
   "status": "passed"
 });
 formatter.match({
@@ -85,11 +90,18 @@ formatter.match({
   "location": "PurchaseSteps.sortProductValue(String)"
 });
 formatter.result({
-  "duration": 3339132709,
+  "duration": 3345315750,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PurchaseSteps.choiceProduct()"
+});
+formatter.result({
+  "duration": 3408001333,
   "status": "passed"
 });
 formatter.after({
-  "duration": 193482292,
+  "duration": 158726333,
   "status": "passed"
 });
 });

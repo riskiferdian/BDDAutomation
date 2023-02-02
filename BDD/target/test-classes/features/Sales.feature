@@ -7,3 +7,4 @@
     When User input "standard_user" as userName and input "secret_sauce" as pass
     Then User already on landing page
     And User sort product list by "Name (Z to A)"
+    And User choice 2 product from the list

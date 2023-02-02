@@ -26,5 +26,13 @@ public class PurchaseSteps {
         landingPage.sortProduct(sort);
         Thread.sleep(3000);
     }
+
+    @And("User choice 2 product from the list")
+    public void choiceProduct() throws InterruptedException {
+        LandingPage landingPage = new LandingPage(webDriver);
+        landingPage.clickBasket1();
+        landingPage.clickBasket2();
+        Thread.sleep(3000);
+    }
 }
 

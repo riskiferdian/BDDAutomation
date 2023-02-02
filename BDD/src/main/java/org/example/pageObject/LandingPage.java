@@ -29,4 +29,16 @@ public class  LandingPage {
         Select a = new Select(selectContainer);
         a.selectByVisibleText(sort);
     }
+
+    @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
+    private WebElement basket1;
+    public void clickBasket1(){
+        basket1.click();
+    }
+
+    @FindBy(xpath = "//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+    private WebElement basket2;
+    public void clickBasket2(){
+        basket2.click();
+    }
 }

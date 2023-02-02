@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 9923553875,
+              "duration": 10114221291,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 193482292,
+              "duration": 158726333,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 531739333,
+              "duration": 426091541,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3919436000,
+              "duration": 4001156375,
               "status": "passed"
             },
             "line": 7,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 778971458,
+              "duration": 261877417,
               "status": "passed"
             },
             "line": 8,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 3339132709,
+              "duration": 3345315750,
               "status": "passed"
             },
             "line": 9,
@@ -93,6 +93,18 @@
                 }
               ],
               "location": "PurchaseSteps.sortProductValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3408001333,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User choice 2 product from the list",
+            "match": {
+              "location": "PurchaseSteps.choiceProduct()"
             },
             "keyword": "And "
           }
