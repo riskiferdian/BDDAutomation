@@ -1,5 +1,6 @@
 package step_definitions;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import org.example.pageObject.LandingPage;
 import org.example.pageObject.LoginPage;
@@ -18,6 +19,12 @@ public class PurchaseSteps {
     public void verifyLandingPage(){
         LandingPage landingPage = new LandingPage(webDriver);
         Assert.assertTrue(landingPage.verifyLandigPage());
+    }
+    @And("User sort product list by \"(.*)\"")
+    public void sortProductValue(String sort) throws InterruptedException {
+        LandingPage landingPage = new LandingPage(webDriver);
+        landingPage.sortProduct(sort);
+        Thread.sleep(3000);
     }
 }
 

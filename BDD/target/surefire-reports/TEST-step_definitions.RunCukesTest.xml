@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="step_definitions.RunCukesTest" time="0.525" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="step_definitions.RunCukesTest" time="0.215" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -67,20 +67,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Normal login" name="Given User open the website sauce demo" time="0.019"/>
-  <testcase classname="Scenario: Normal login" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as pass" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Then User already on landing page" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.165"/>
-  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="Given User open the website sauce demo" time="0.001"/>
-  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="When User input &quot;standard_user&quot; as userName and input &quot;&quot; as pass" time="0.001"/>
-  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="Then User see error &quot;Epic sadface: Password is required&quot; on login page" time="0"/>
-  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="| standard_user |  | Epic sadface: Password is required |" time="0.114"/>
-  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="Given User open the website sauce demo" time="0"/>
-  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="When User input &quot;&quot; as userName and input &quot;secret_sauce&quot; as pass" time="0"/>
-  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="Then User see error &quot;Epic sadface: Username is required&quot; on login page" time="0"/>
-  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="|  | secret_sauce | Epic sadface: Username is required |" time="0.115"/>
-  <testcase classname="| asd | asd | Epic sadface: Username and password do not match any user in this service |" name="Given User open the website sauce demo" time="0"/>
-  <testcase classname="| asd | asd | Epic sadface: Username and password do not match any user in this service |" name="When User input &quot;asd&quot; as userName and input &quot;asd&quot; as pass" time="0"/>
-  <testcase classname="| asd | asd | Epic sadface: Username and password do not match any user in this service |" name="Then User see error &quot;Epic sadface: Username and password do not match any user in this service&quot; on login page" time="0"/>
-  <testcase classname="| asd | asd | Epic sadface: Username and password do not match any user in this service |" name="| asd | asd | Epic sadface: Username and password do not match any user in this service |" time="0.11"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Given User open the website sauce demo" time="0.017"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as pass" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User sort product list by &quot;Name (Z to A)&quot;" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Scenario: User make a purchase with 2 item" time="0.198"/>
 </testsuite>
