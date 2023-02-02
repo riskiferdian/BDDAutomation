@@ -41,4 +41,11 @@ public class  LandingPage {
     public void clickBasket2(){
         basket2.click();
     }
+
+    @FindBy(xpath = "//a[@class='shopping_cart_link']")
+    private  WebElement keranjang;
+
+    public void addToChart(){
+        keranjang.click();
+    }
 }

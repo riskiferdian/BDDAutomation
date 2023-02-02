@@ -2,6 +2,7 @@ package step_definitions;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en_scouse.An;
 import org.example.pageObject.LandingPage;
 import org.example.pageObject.LoginPage;
 import org.junit.Assert;
@@ -34,5 +35,12 @@ public class PurchaseSteps {
         landingPage.clickBasket2();
         Thread.sleep(3000);
     }
+
+    @And("User click chart button")
+    public void addChartButton(){
+        LandingPage landingPage = new LandingPage(webDriver);
+        landingPage.addToChart();
+    }
+
 }
 

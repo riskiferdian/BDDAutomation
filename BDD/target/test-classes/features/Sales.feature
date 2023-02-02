@@ -8,3 +8,4 @@
     Then User already on landing page
     And User sort product list by "Name (Z to A)"
     And User choice 2 product from the list
+    And User click chart button

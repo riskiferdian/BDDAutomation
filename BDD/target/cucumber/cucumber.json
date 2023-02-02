@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 10114221291,
+              "duration": 13127600334,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 158726333,
+              "duration": 125879750,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 426091541,
+              "duration": 852810750,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 4001156375,
+              "duration": 4757605042,
               "status": "passed"
             },
             "line": 7,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 261877417,
+              "duration": 176726083,
               "status": "passed"
             },
             "line": 8,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 3345315750,
+              "duration": 3358839583,
               "status": "passed"
             },
             "line": 9,
@@ -98,13 +98,25 @@
           },
           {
             "result": {
-              "duration": 3408001333,
+              "duration": 3488494417,
               "status": "passed"
             },
             "line": 10,
             "name": "User choice 2 product from the list",
             "match": {
               "location": "PurchaseSteps.choiceProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229489917,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click chart button",
+            "match": {
+              "location": "PurchaseSteps.addChartButton()"
             },
             "keyword": "And "
           }
