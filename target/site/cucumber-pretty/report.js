@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 10000705125,
+  "duration": 16014235458,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,7 +43,7 @@ formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 511754917,
+  "duration": 461622667,
   "status": "passed"
 });
 formatter.match({
@@ -60,18 +60,18 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 3989900792,
+  "duration": 3864357291,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.verifyLandingPage()"
 });
 formatter.result({
-  "duration": 299592166,
+  "duration": 422260125,
   "status": "passed"
 });
 formatter.after({
-  "duration": 126833833,
+  "duration": 133190209,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -143,7 +143,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6752388333,
+  "duration": 7308124250,
   "status": "passed"
 });
 formatter.scenario({
@@ -186,7 +186,7 @@ formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 285366167,
+  "duration": 371052708,
   "status": "passed"
 });
 formatter.match({
@@ -203,7 +203,7 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 1118022791,
+  "duration": 1178238166,
   "status": "passed"
 });
 formatter.match({
@@ -216,15 +216,15 @@ formatter.match({
   "location": "LoginSteps.verifyErrorText(String)"
 });
 formatter.result({
-  "duration": 57877084,
+  "duration": 60174042,
   "status": "passed"
 });
 formatter.after({
-  "duration": 129330042,
+  "duration": 123955667,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6648881417,
+  "duration": 7354504000,
   "status": "passed"
 });
 formatter.scenario({
@@ -267,7 +267,7 @@ formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 313756666,
+  "duration": 398127166,
   "status": "passed"
 });
 formatter.match({
@@ -284,7 +284,7 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 1075687125,
+  "duration": 1215602208,
   "status": "passed"
 });
 formatter.match({
@@ -297,15 +297,15 @@ formatter.match({
   "location": "LoginSteps.verifyErrorText(String)"
 });
 formatter.result({
-  "duration": 56977333,
+  "duration": 60362459,
   "status": "passed"
 });
 formatter.after({
-  "duration": 120617500,
+  "duration": 108624083,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6618466959,
+  "duration": 7249269792,
   "status": "passed"
 });
 formatter.scenario({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 347531291,
+  "duration": 361585334,
   "status": "passed"
 });
 formatter.match({
@@ -365,7 +365,7 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 1151420792,
+  "duration": 1256380625,
   "status": "passed"
 });
 formatter.match({
@@ -378,11 +378,11 @@ formatter.match({
   "location": "LoginSteps.verifyErrorText(String)"
 });
 formatter.result({
-  "duration": 40923750,
+  "duration": 43054292,
   "status": "passed"
 });
 formatter.after({
-  "duration": 109946708,
+  "duration": 108216708,
   "status": "passed"
 });
 });
