@@ -13,6 +13,7 @@
     And User remove the last item
     And User click checkout button
     And User input user "riski" as first , "ferdian" as last, "68131" as zip on checkout page
+    And User click continue button on check out page
     Then System display a page where item price is same with item total
     And System display the item total price after tax is same with total purchase
     And User click finish button

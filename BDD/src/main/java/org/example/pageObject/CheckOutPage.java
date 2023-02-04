@@ -41,7 +41,7 @@ public class CheckOutPage {
 
     @FindBy(xpath = "//input[@id='continue']")
     private WebElement clickButton;
-    public void setClickButton(){
+    public void clickContinueButton(){
         clickButton.click();
     }
 

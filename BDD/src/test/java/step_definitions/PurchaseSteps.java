@@ -18,15 +18,16 @@ public class PurchaseSteps {
     }
 
     @Then("User already on landing page")
-    public void verifyLandingPage(){
+    public void verifyLandingPage() throws InterruptedException {
         LandingPage landingPage = new LandingPage(webDriver);
         Assert.assertTrue(landingPage.verifyLandigPage());
+        Thread.sleep(1500);
     }
     @And("User sort product list by \"(.*)\"")
     public void sortProductValue(String sort) throws InterruptedException {
         LandingPage landingPage = new LandingPage(webDriver);
         landingPage.sortProduct(sort);
-        Thread.sleep(3000);
+        Thread.sleep(1500);
     }
 
     @And("User choice 2 product from the list")
@@ -34,7 +35,7 @@ public class PurchaseSteps {
         LandingPage landingPage = new LandingPage(webDriver);
         landingPage.clickBasket1();
         landingPage.clickBasket2();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
     @And("User click chart button")

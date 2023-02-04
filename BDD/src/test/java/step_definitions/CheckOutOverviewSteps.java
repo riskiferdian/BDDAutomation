@@ -20,9 +20,10 @@ public class CheckOutOverviewSteps {
     }
 
     @And("System display the item total price after tax is same with total purchase")
-    public void verifyTotal(){
+    public void verifyTotal() throws InterruptedException {
         CheckOutOverview checkOutOverview = new CheckOutOverview(webDriver);
         Assert.assertEquals(checkOutOverview.setItemTotal()+checkOutOverview.setTax(), checkOutOverview.setTotalPurchase(), 0);
+        Thread.sleep(3000);
     }
 
     @And("User click finish button")
@@ -35,7 +36,7 @@ public class CheckOutOverviewSteps {
     public void verifyThankOrder() throws InterruptedException {
         CheckOutOverview checkOutOverview = new CheckOutOverview(webDriver);
         Assert.assertTrue(checkOutOverview.verifyThankOrder());
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
 }

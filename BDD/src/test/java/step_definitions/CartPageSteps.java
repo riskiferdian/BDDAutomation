@@ -14,9 +14,10 @@ public class CartPageSteps {
     }
 
     @Then("User already on Chart Page")
-    public void verifyChartPage(){
+    public void verifyChartPage() throws InterruptedException {
         CartPage cartPage = new CartPage(webDriver);
         Assert.assertTrue(cartPage.setVerifyCartPage());
+        Thread.sleep(3000);
     }
 
     @And("User click checkout button")

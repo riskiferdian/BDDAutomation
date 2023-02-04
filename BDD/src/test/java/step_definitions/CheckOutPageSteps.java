@@ -1,6 +1,8 @@
 package step_definitions;
 
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en_scouse.An;
 import net.masterthought.cucumber.json.Hook;
 import org.example.pageObject.CheckOutPage;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +19,11 @@ public class CheckOutPageSteps {
         checkOutPage.inputFirstName(first);
         checkOutPage.inputLastName(last);
         checkOutPage.inputZipCode(zip);
-        checkOutPage.setClickButton();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
+    }
+    @And("User click continue button on check out page")
+    public void clickContinue(){
+        CheckOutPage checkOutPage = new CheckOutPage(webDriver);
+        checkOutPage.clickContinueButton();
     }
 }
