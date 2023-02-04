@@ -17,18 +17,18 @@ public class CheckOutOverview {
 
 
     @FindBy(xpath = "//div[@class='inventory_item_price']")
-    private WebElement priceActual;
-    public String setActual(){
-        String priceAct = "Item total: " + priceActual.getText();
-        return priceAct;
+    private WebElement itemPrice;
+    public Float setItemPrice(){
+        String a = itemPrice.getText();
+        String b = a.replaceAll("[^0-9.]", "");
+        float c = Float.parseFloat(b);
+        return c;
     }
 
     @FindBy(xpath = "//div[@class='summary_subtotal_label']")
     private WebElement itemTotal;
-    public String setItemTotal(){
-       return itemTotal.getText();
-    }
-    public Float itemTotalFloat(){
+
+    public Float setItemTotal(){
         String a = itemTotal.getText();
         String b = a.replaceAll("[^0-9.]", "");
         float c = Float.parseFloat(b);
@@ -36,11 +36,13 @@ public class CheckOutOverview {
     }
 
     @FindBy(xpath = "//div[@class='summary_total_label']")
-    private WebElement lastTotal;
-    public String setLastTotal(){
-        String a = lastTotal.getText();
+    private WebElement totalPurchase;
+
+    public Float setTotalPurchase(){
+        String a = totalPurchase.getText();
         String b = a.replaceAll("[^0-9.]", "");
-        return b;
+        float c = Float.parseFloat(b);
+        return c;
     }
 
     @FindBy(xpath = "//div[@class='summary_tax_label']")
@@ -51,14 +53,6 @@ public class CheckOutOverview {
         float c = Float.parseFloat(b);
         return c;
     }
-
-    public String setTaxAndItem(){
-        float a = itemTotalFloat();
-        float b = setTax();
-        float c = a+b;
-        String d = Float.toString(c);
-        return d;
-        }
 
     @FindBy(xpath = "//button[@id='finish']")
     private WebElement finishButton;

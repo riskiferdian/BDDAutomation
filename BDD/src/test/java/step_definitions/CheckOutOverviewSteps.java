@@ -16,13 +16,13 @@ public class CheckOutOverviewSteps {
     @Then("System display a page where item price is same with item total")
     public void verifyPrice(){
         CheckOutOverview checkOutOverview = new CheckOutOverview(webDriver);
-        Assert.assertEquals(checkOutOverview.setActual(),checkOutOverview.setItemTotal());
+        Assert.assertEquals(checkOutOverview.setItemPrice(),checkOutOverview.setItemTotal(),0);
     }
 
     @And("System display the item total price after tax is same with total purchase")
     public void verifyTotal(){
         CheckOutOverview checkOutOverview = new CheckOutOverview(webDriver);
-        Assert.assertEquals(checkOutOverview.setTaxAndItem(),checkOutOverview.setLastTotal());
+        Assert.assertEquals(checkOutOverview.setItemTotal()+checkOutOverview.setTax(), checkOutOverview.setTotalPurchase(), 0);
     }
 
     @And("User click finish button")
@@ -32,9 +32,10 @@ public class CheckOutOverviewSteps {
     }
 
     @Then("System display message thank you for your order")
-    public void verifyThankOrder(){
+    public void verifyThankOrder() throws InterruptedException {
         CheckOutOverview checkOutOverview = new CheckOutOverview(webDriver);
         Assert.assertTrue(checkOutOverview.verifyThankOrder());
+        Thread.sleep(3000);
     }
 
 }

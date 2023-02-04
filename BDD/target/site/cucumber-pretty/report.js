@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 10945771375,
+  "duration": 10554623000,
   "status": "passed"
 });
 formatter.scenario({
@@ -71,17 +71,17 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
-  "name": "User input user \"percoba\" as first , \"hanua\" as last, \"134\" as zip on checkout page",
+  "name": "User input user \"riski\" as first , \"ferdian\" as last, \"68131\" as zip on checkout page",
   "keyword": "And "
 });
 formatter.step({
   "line": 16,
-  "name": "System display a page where item price is same with total price",
+  "name": "System display a page where item price is same with item total",
   "keyword": "Then "
 });
 formatter.step({
   "line": 17,
-  "name": "the total price is same",
+  "name": "System display the item total price after tax is same with total purchase",
   "keyword": "And "
 });
 formatter.step({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 257809083,
+  "duration": 376310541,
   "status": "passed"
 });
 formatter.match({
@@ -115,14 +115,14 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 3081159125,
+  "duration": 3007270208,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.verifyLandingPage()"
 });
 formatter.result({
-  "duration": 169010000,
+  "duration": 145334625,
   "status": "passed"
 });
 formatter.match({
@@ -135,95 +135,95 @@ formatter.match({
   "location": "PurchaseSteps.sortProductValue(String)"
 });
 formatter.result({
-  "duration": 3255065625,
+  "duration": 3296334458,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.choiceProduct()"
 });
 formatter.result({
-  "duration": 3265318042,
+  "duration": 3352919250,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.addChartButton()"
 });
 formatter.result({
-  "duration": 123999125,
+  "duration": 118307750,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.verifyChartPage()"
 });
 formatter.result({
-  "duration": 121902041,
+  "duration": 106237458,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.removeItem()"
 });
 formatter.result({
-  "duration": 3060444375,
+  "duration": 3038899917,
   "status": "passed"
 });
 formatter.match({
   "location": "CartPageSteps.clickCheckoutButton()"
 });
 formatter.result({
-  "duration": 101560875,
+  "duration": 94546583,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "percoba",
+      "val": "riski",
       "offset": 17
     },
     {
-      "val": "hanua",
-      "offset": 38
+      "val": "ferdian",
+      "offset": 36
     },
     {
-      "val": "134",
+      "val": "68131",
       "offset": 55
     }
   ],
   "location": "CheckOutPageSteps.inputData(String,String,String)"
 });
 formatter.result({
-  "duration": 6134983792,
+  "duration": 6240325417,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckOutOverviewSteps.verifyPrice()"
 });
 formatter.result({
-  "duration": 95483500,
+  "duration": 94309625,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckOutOverviewSteps.verifyTotal()"
 });
 formatter.result({
-  "duration": 61450583,
+  "duration": 56061959,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckOutOverviewSteps.clickFinishButton()"
 });
 formatter.result({
-  "duration": 471207625,
+  "duration": 583747959,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckOutOverviewSteps.verifyThankOrder()"
 });
 formatter.result({
-  "duration": 28365250,
+  "duration": 3036600917,
   "status": "passed"
 });
 formatter.after({
-  "duration": 120819167,
+  "duration": 139089458,
   "status": "passed"
 });
 });

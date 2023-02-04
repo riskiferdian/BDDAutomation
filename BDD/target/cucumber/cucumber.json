@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 10945771375,
+              "duration": 10554623000,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 120819167,
+              "duration": 139089458,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 257809083,
+              "duration": 376310541,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3081159125,
+              "duration": 3007270208,
               "status": "passed"
             },
             "line": 7,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 169010000,
+              "duration": 145334625,
               "status": "passed"
             },
             "line": 8,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 3255065625,
+              "duration": 3296334458,
               "status": "passed"
             },
             "line": 9,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 3265318042,
+              "duration": 3352919250,
               "status": "passed"
             },
             "line": 10,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 123999125,
+              "duration": 118307750,
               "status": "passed"
             },
             "line": 11,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 121902041,
+              "duration": 106237458,
               "status": "passed"
             },
             "line": 12,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 3060444375,
+              "duration": 3038899917,
               "status": "passed"
             },
             "line": 13,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 101560875,
+              "duration": 94546583,
               "status": "passed"
             },
             "line": 14,
@@ -158,23 +158,23 @@
           },
           {
             "result": {
-              "duration": 6134983792,
+              "duration": 6240325417,
               "status": "passed"
             },
             "line": 15,
-            "name": "User input user \"percoba\" as first , \"hanua\" as last, \"134\" as zip on checkout page",
+            "name": "User input user \"riski\" as first , \"ferdian\" as last, \"68131\" as zip on checkout page",
             "match": {
               "arguments": [
                 {
-                  "val": "percoba",
+                  "val": "riski",
                   "offset": 17
                 },
                 {
-                  "val": "hanua",
-                  "offset": 38
+                  "val": "ferdian",
+                  "offset": 36
                 },
                 {
-                  "val": "134",
+                  "val": "68131",
                   "offset": 55
                 }
               ],
@@ -184,11 +184,11 @@
           },
           {
             "result": {
-              "duration": 95483500,
+              "duration": 94309625,
               "status": "passed"
             },
             "line": 16,
-            "name": "System display a page where item price is same with total price",
+            "name": "System display a page where item price is same with item total",
             "match": {
               "location": "CheckOutOverviewSteps.verifyPrice()"
             },
@@ -196,11 +196,11 @@
           },
           {
             "result": {
-              "duration": 61450583,
+              "duration": 56061959,
               "status": "passed"
             },
             "line": 17,
-            "name": "the total price is same",
+            "name": "System display the item total price after tax is same with total purchase",
             "match": {
               "location": "CheckOutOverviewSteps.verifyTotal()"
             },
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 471207625,
+              "duration": 583747959,
               "status": "passed"
             },
             "line": 18,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 28365250,
+              "duration": 3036600917,
               "status": "passed"
             },
             "line": 19,

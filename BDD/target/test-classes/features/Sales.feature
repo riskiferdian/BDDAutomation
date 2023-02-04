@@ -12,9 +12,9 @@
     Then User already on Chart Page
     And User remove the last item
     And User click checkout button
-    And User input user "percoba" as first , "hanua" as last, "134" as zip on checkout page
-    Then System display a page where item price is same with total price
-    And the total price is same
+    And User input user "riski" as first , "ferdian" as last, "68131" as zip on checkout page
+    Then System display a page where item price is same with item total
+    And System display the item total price after tax is same with total purchase
     And User click finish button
     Then System display message thank you for your order
 
