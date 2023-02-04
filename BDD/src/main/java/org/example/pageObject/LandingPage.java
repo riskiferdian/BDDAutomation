@@ -30,7 +30,7 @@ public class  LandingPage {
         a.selectByVisibleText(sort);
     }
 
-    @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
+    @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-onesie']")
     private WebElement basket1;
     public void clickBasket1(){
         basket1.click();
@@ -48,4 +48,5 @@ public class  LandingPage {
     public void addToChart(){
         keranjang.click();
     }
+
 }

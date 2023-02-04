@@ -1,4 +1,7 @@
+step_definitions/CheckOutPageSteps.class
 step_definitions/LoginSteps.class
-step_definitions/Hooks.class
 step_definitions/PurchaseSteps.class
 step_definitions/RunCukesTest.class
+step_definitions/CartPageSteps.class
+step_definitions/CheckOutOverviewSteps.class
+step_definitions/Hooks.class

@@ -3,10 +3,11 @@ package step_definitions;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en_scouse.An;
-import org.example.pageObject.LandingPage;
-import org.example.pageObject.LoginPage;
+import org.example.pageObject.*;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class PurchaseSteps {
     private WebDriver webDriver;
